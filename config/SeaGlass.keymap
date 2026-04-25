@@ -131,18 +131,18 @@
 
         function {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
-&mo 3   &none   &none   &none   &none   &none   &none   &none   &kp F11  &kp F12
-&mo 4   &none   &none   &none   &none   &none   &none   &mo 4   &none    &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&mo 3   &none   &none   &none   &kp F6  &kp F7  &none   &none    &none    &none
+&mo 4   &none   &none   &none   &none   &none   &none   &mo 4    &none    &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3    &trans   &trans
 &trans  &trans
             >;
         };
 
         media {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
-&none   &none   &none   &none   &none   &none   &none   &none       &none         &none
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F8  &kp F9  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
+&none   &none   &none   &none   &kp F6  &kp F7  &none   &none       &none         &none
 &none   &none   &none   &none   &none   &none   &none   &none       &none         &none
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans
 &trans  &trans
