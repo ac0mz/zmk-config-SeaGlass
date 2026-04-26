@@ -1,0 +1,74 @@
+parse_config:
+  raw_binding_map:
+    "&bksp_del": { tap: "BKSP", hold: "DEL" }
+    "&to_layer_0 0": "→Base"
+    "&encoder_msc_down_up": "Scroll ↕"
+    "&encoder_msc_left_right": "Scroll ↔"
+
+  modifier_fn_map:
+    left_shift: SHFT
+    right_shift: SHFT
+    left_ctrl: CTRL
+    right_ctrl: CTRL
+    left_alt: ALT
+    right_alt: ALT
+    left_gui: META
+    right_gui: META
+    keycode_combiner: "{mods}+{key}"
+
+  zmk_keycode_map:
+    LEFT_SHIFT: SHFT
+    RIGHT_SHIFT: SHFT
+    LSHFT: SHFT
+    RSHFT: SHFT
+    LEFT_CONTROL: CTRL
+    RIGHT_CONTROL: CTRL
+    LCTRL: CTRL
+    RCTRL: CTRL
+    LEFT_ALT: ALT
+    RIGHT_ALT: ALT
+    LALT: ALT
+    RALT: ALT
+    LEFT_META: META
+    RIGHT_META: META
+    LGUI: META
+    RGUI: META
+    ESCAPE: ESC
+    BACKSPACE: BKSP
+
+    COMMA: ","
+    PERIOD: "."
+    DOT: "."
+    MINUS: "-"
+    EQUAL: "="
+    SLASH: "/"
+    FSLH: "/"
+    APOSTROPHE: "'"
+    APOS: "'"
+    GRAVE: "`"
+    SEMICOLON: ";"
+    SEMI: ";"
+    LBKT: "["
+    LEFT_BRACKET: "["
+    RBKT: "]"
+    RIGHT_BRACKET: "]"
+    BACKSLASH: '\'
+
+    LEFT: "←"
+    LEFT_ARROW: "←"
+    RIGHT: "→"
+    RIGHT_ARROW: "→"
+    UP: "↑"
+    UP_ARROW: "↑"
+    DOWN: "↓"
+    DOWN_ARROW: "↓"
+
+    HOME: Home
+    END: End
+    PAGE_UP: PgUp
+    PAGE_DOWN: PgDn
+
+draw_config:
+  draw_key_sides: true
+  dark_mode: auto
+  footer_text: "SeaGlass keymap (auto-generated)"
