@@ -1,0 +1,273 @@
+layout: {zmk_keyboard: SeaGlass}
+layers:
+  default:
+  - {t: Q, h: move}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: Z, h: SHFT}
+  - X
+  - C
+  - V
+  - {t: B, h: bluetooth}
+  - N
+  - M
+  - ','
+  - .
+  - '-'
+  - SHFT
+  - CTRL
+  - ALT
+  - {t: TAB, h: number_symbol}
+  - {t: SPACE, h: META}
+  - {t: SPACE, h: move}
+  - {t: ESC, h: number_symbol}
+  - {t: ALT, h: function}
+  - CTRL
+  - SHFT
+  - '&mkp MB1'
+  - '&mkp MB2'
+  number_symbol:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - '='
+  - '`'
+  - ''
+  - ''
+  - ''
+  - '6'
+  - '7'
+  - '['
+  - ']'
+  - \
+  - ;
+  - SHFT
+  - ''
+  - SHFT+,
+  - SHFT+.
+  - SHFT+/
+  - ''
+  - ','
+  - .
+  - /
+  - ''''
+  - SHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  move:
+  - {t: move, type: held}
+  - ALT+←
+  - ↑
+  - ALT+→
+  - ''
+  - Home
+  - PgDn
+  - PgUp
+  - End
+  - SHFT
+  - SHFT
+  - ←
+  - ↓
+  - →
+  - ''
+  - ←
+  - ↓
+  - ↑
+  - →
+  - SHFT
+  - SHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ALT+←
+  - ''
+  - ''
+  - ALT+→
+  - SHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - move
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  function:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - function
+  - ''
+  - ''
+  - ''
+  - F6
+  - F7
+  - ''
+  - ''
+  - ''
+  - ''
+  - media
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - media
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: function, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  media:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F8
+  - F9
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - F6
+  - F7
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  bluetooth:
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [40, 41]
+  k: '&mkp MB3'
+- p: [10, 11]
+  k: TAB
+- p: [8, 9]
+  k: {t: BKSP, h: DEL}
+- p: [8, 7]
+  k: {t: BKSP, h: DEL}
+- p: [18, 17]
+  k: ENTER
+- p: [16, 17]
+  k: ENTER
